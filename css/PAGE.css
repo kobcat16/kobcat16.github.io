@@ -60,3 +60,40 @@
     float: right;
     display: inline;
 }
+
+.header {
+    width: 100%;
+    margin: 0;
+    height: 80px;
+    background: #C5E5F5 url(images/bg.png) repeat-y center;
+}
+
+.header-content {
+    width: 990px;
+    margin: 0 auto;
+    height: 60px;
+    overflow: visible;
+}
+
+.header-center-text {
+    width: 650px;
+    height: 40px;
+    margin-left: 4px;
+    overflow: visible;
+    float: left;
+    padding-top: 2px;
+}
+
+.header-shadow {
+    width: 100%;
+    height: 2px;
+    background: #C5E5F5 url(images/bg.png) repeat-y center;
+    overflow: visible;
+}
+
+.header-shadow-content {
+    margin: 0px auto;
+    width: 990px;
+    height: 10px;
+    background: url(images/head_shadow.png) center;
+}
