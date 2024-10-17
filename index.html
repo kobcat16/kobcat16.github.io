@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kobcat's About Me</title>
+        <link href="/css/PAGE.css" rel="stylesheet" type="text/css">
+    </head>
+
+<body onpageshow="htm()">
+    <div class="altformatcenter">
+        <div class="altformatcontent">
+            <div class="altformat">
+                <div class="format-type">
+                    <a href="./index.html">Home</a>
+                </div>
+                <div class="format-type">
+                    <a href="?text">Text Version</a>
+                </div>
+                <div class="local-forecast">
+                    <form name="getForecast" id="getForecast" action="https://forecast.weather.gov/zipcity.php" method="get">
+                        <input id="inputstring" name="inputstring" type="text" size="8" value="USA Weather Search, Enter City, State or ZIP" onclick="this.value=''">
+                        <input name="btnSearch" id="btnSearch" type="submit" value="Go">
+                    </form>
+                </div>
+                <div class="forecast-description">
+                    <a href="https://www.weather.gov">Local Forecast</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
